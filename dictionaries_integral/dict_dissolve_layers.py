@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+# only polygons and polylines
+
+dissolve_dict = {
+'Assent_incra_2011' 								: ['NOMEPROJ3', 'MUNICIPI9'],
+'bioma_GEOBAHIA' 									: ['CD_LEGEN1'],
+'Conflitos_Socioambientais_SEMA_2014'				: ['Tipologia', 'MUNICIPIO'],
+'Densidfundpasto_cda_2014'						 	: ['Quantidade', 'MUNICIPIO'],
+'Geomorfologia_zee_2012'  							: ['nome_desc'],
+'Indice_frag_sema_2015' 							: ['Classe'],
+'Indige_ba_mma_2010'  								: ['GRUPOS', 'NOME_TI', 'MUNICíPIO'],
+'Patritomb_iphan_2014'								: ['Patrimôni', 'MUNICIPIO'],
+'Quilomb_incra_2010'								: ['Territóri', 'Município'],
+'Relev_amb_sema_2015'								: ['Classe_ra'],
+'Relev_social_sema_2015'							: ['NOTA_rsoc'],
+'RPPN_Federais_ICMBIO_2014'							: ['nome', 'municipio'],
+'Uc_icmbio_2011'									: ['Sigla_Gr', 'Nom_Dec', 'municipios'],
+'Uc_inema_2014'										: ['GRUPO', 'NOME_UC', 'MUNICIPIOS'],
+'Uni_paisagem_zee_2013'								: ['UP_NOME', 'UP_DESC'],
+'Unidades_Territoriais_Basicas_ZEE_2013'			: ['UTB_NOME', 'DESCRIÇAO'],
+'Veg_100k_seagri_1998'								: ['NM_CLASSE'],
+'Vul_amb_sema_2015'									: ['Classe_va'],
+'Vul_social_sema_2015'								: ['Classe_vs'],
+'Vuln_Risco_Nat_Aguas_Subterraneas_ZEE_2013'		: ['Vuln_Nat'],
+'Vulnerabilidade_Erosao_ZEE_2013'					: ['Class_VUL2'],
+'Vulnerabilidade_Hidrica_ZEE_2013'					: ['CLASSIFICA'],
+'Zauc_3km_fed_sema_2014'							: ['Sigla_Gr', 'Nom_Dec', 'municipios'],
+'Zauc_3km_inema_2010'								: ['Grupo', 'Nome_UC', 'Municipios'],
+'Zauc_inema_2014'									: ['Grupo', 'Nome_UC', 'Municipios'],
+}

@@ -1,0 +1,3 @@
+O geodatabase "map_geodatabase_analysis" tem as seguintes características
+   • Camadas na projeção Albers (EPSG: 102033) para o propósito de cálculo de áreas.
+   • Atributos das camadas dissolvidas quando possível, também para cálculo de áreas e outras mensurações. O "Dissolve" é aplicado principalmente quando uma camada possui classes (vegetação, vulnberabilidades, solos, etc). Camadas que geralmente não tem atributos dissolvidos: assentamentos, territórios indígenas, unidades de conservação. 
